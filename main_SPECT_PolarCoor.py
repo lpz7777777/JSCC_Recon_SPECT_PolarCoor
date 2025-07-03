@@ -58,7 +58,7 @@ if __name__ == '__main__':
         iter_arg.save_iter_step = 1
         iter_arg.osem_subset_num = 5
         iter_arg.t_divide_num = 10       # prevent memory explosions during iterations
-        iter_arg.flag_moreevents = 1
+        iter_arg.event_level = 2
 
         # down sampling ratio of events
         flag_ds = 0
